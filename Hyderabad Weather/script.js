@@ -35,15 +35,16 @@ const weatherData = {
    const pressure = current.pressure;
  
    document.getElementById("weather").innerHTML = `
-     <p><b>🌡 Temperature:</b> ${temp}°C</p>
-     <p><b>💨 Feels Like:</b> ${feels}°C</p>
-     <p><b>🌥 Condition:</b> ${desc}</p>
-     <p><b>💧 Humidity:</b> ${humidity}%</p>
-     <p><b>🌬 Wind Speed:</b> ${wind} m/s</p>
-     <p><b>🧭 Pressure:</b> ${pressure} hPa</p>
+     <p><b> Temperature:</b> ${temp}°C</p>
+     <p><b> Feels Like:</b> ${feels}°C</p>
+     <p><b> Condition:</b> ${desc}</p>
+     <p><b> Humidity:</b> ${humidity}%</p>
+     <p><b>Wind Speed:</b> ${wind} m/s</p>
+     <p><b>Pressure:</b> ${pressure} hPa</p>
    `;
  }
  
  // Run when page loads
  window.onload = showWeather;
+
  
